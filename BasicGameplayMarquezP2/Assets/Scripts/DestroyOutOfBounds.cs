@@ -12,7 +12,6 @@ public class DestroyOutOfBounds : MonoBehaviour
 
     }
 
-    private float topBound = 30;
 
     // Update is called once per frame
     void Update()
@@ -26,4 +25,4 @@ public class DestroyOutOfBounds : MonoBehaviour
             Destroy(gameObject);
         }
     }
- 
+}
